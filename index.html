@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js">
+    </script>
+    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     
+
+   
+
+    <link rel="stylesheet" href="css/style.css" />
+
+
+    <link rel="stylesheet" href="css/style.cs">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                aria-controls="offcanvasExample">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="image">
+                <img src="images/icons8-hamburger-48.png">
+            </div>
+            <a class="navbar-brand fw-bold" href="#">La Pino's</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <form class="d-flex ms-auto">
+                    <ul class="navbar-nav  mb-2 mb-lg-0">
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Contact Us
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Mobile</a></li>
+                                <li><a class="dropdown-item" href="#">Address</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Branches</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search"
+                            aria-label="Search" aria-describedby="button-addon2">
+                        <button class="btn btn-info" type="button" id="button-addon2"><i class="fas fa-search"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Navigation Bar -->
+
+    <!-- Sidebar -->
+    <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+        aria-controls="offcanvasExample">
+        Link with href
+    </a>
+
+    <div class="offcanvas offcanvas-start sidebar-nav bg-dark text-white" tabindex="-1" id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel">
+
+        <div class="offcanvas-body offcanvas-items">
+            <nav class="navbar-dark bg-dark">
+
+                <ul class="sidebar">
+
+                    <li class="sidebar-items"><i class="fas fa-file"></i>Orders</li>
+                    <li class="my-4">
+                        <hr class="dropdown-divider">
+                    </li>
+
+                    <li class="sidebar-items"><i class="fas fa-users"></i>Customers</li>
+                    <li class="my-4">
+                        <hr class="dropdown-divider">
+                    </li>
+
+
+                    <li class="sidebar-items"><i class="fas fa-utensils"></i>Menu</li>
+                    <li class="my-4">
+                        <hr class="dropdown-divider">
+                    </li>
+
+                    <li class="sidebar-items"><i class="fas fa-chart-line"></i>Analysis</li>
+                    <li class="my-4">
+                        <hr class="dropdown-divider">
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+    </div>
+
+    <!-- Sidebar -->
+
+    <!-- Main -->
+
+    <main class="mt-4 ml-5 mr-3 pt-3">
+        <div class="container-fluid">
+            <div class="row">
+                
+                <div class="card text-white bg-dark mb-3" style="max-width: 69rem; max-height: 3rem;">
+                    <div class="card-header"><h4>Admin Dashboard</hr></div>
+                    
+                    </div>
+                  </div>
+                
+
+
+
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        
+                        <div class="card-body w-100">
+                            <canvas id="doughnutCardChart1" width="200" height="100"></canvas>
+                            <hr>
+                            <h5 class="card-title">Total Revenue</h5>
+                            <h6><span>546K</span></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-body w-100">
+                            <canvas id="doughnutCardChart2" width="200" height="100"></canvas>
+                            <hr>
+                            <h5 class="card-title">Total Menu</h5>
+                            <h6><span>350</span></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-body w-100">
+                            <canvas id="doughnutCardChart3" width="200" height="100"></canvas>
+                            <hr>
+                            <h5 class="card-title">Total Orders</h5>
+                            <h6><span>1570</span></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-body w-100">
+                            <canvas id="doughnutCardChart4" width="200" height="100"></canvas>
+                            <hr>
+                            <h5 class="card-title">Total Customers</h5>
+                            <h6><span>1245</span></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card text-white bg-dark mb-3">
+                        
+                        <div class="card-body">
+                            <h3 class="card-title">Daily Revenue</h3>
+                            
+                            <canvas class="canvas"id="barChart" width="400" height="100">
+
+                            </canvas>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+            
+            <div class="card text-white bg-dark mb-3" style="max-width: 69rem; max-height: 3rem;">
+                <div class="card-header"><h4>Favourites</hr></div>
+                
+                </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <!-- <div class="card-header">Header</div> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Chicken Biryani</h5>
+                        
+                            <img class="image-card" src="images/1972917.jpg">
+                            <br><br>
+                            ⭐⭐⭐⭐⭐ 
+                            <hr>   
+                            150 Reviews
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <!-- <div class="card-header">Header</div> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Paneer Tikka</h5>
+                            <img class="image-card" src="images/tandoori-paneer-tikka-marinated-cheese-cubes-spices-yogurt-indian-dish-188315564.jpg">
+                            <br><br>
+                            ⭐⭐⭐⭐ 
+                            <hr>   
+                            120 Reviews
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+        
+                        <div class="card-body">
+                        
+                            <h5 class="card-title">Pizza</h5>
+                            <img class="image-card" src="images/wc1813154.jpg">
+                            <br><br>
+                            ⭐⭐⭐⭐⭐ 
+                            <hr>   
+                            167 Reviews
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        
+                        <div class="card-body food-card">
+                            
+                            <h5 class="card-title">Pasta</h5>
+                            <img class="image-card" src="images/photo-1555949258-eb67b1ef0ceb.jpg">
+                            <br><br>
+                            ⭐⭐⭐⭐⭐ 
+                            <hr>   
+                            160 Reviews
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card text-white bg-dark mb-3 h-100">
+                        
+                        <div class="card-body pie-body">     
+                           
+                            <h3>Order Overview</h3>                   
+                           
+
+                           
+                            <canvas  id="pieChart" width="492" height="280">
+
+                            </canvas>
+                            <br><br>
+
+                            <button type="button" class="btn btn-primary">View Full Report</button>
+                           
+                            
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card text-white bg-dark mb-3">
+                        
+                        <div class="card-body">  
+                            <h3>Customer Flow</h3>                      
+                            
+                            <canvas id="lineChart" width="200" height="100">
+
+                            </canvas>
+                            
+                        </div>
+
+
+                    </div>
+
+                    <div class="card text-white bg-dark mb-3">
+                        
+                        <div class="card-body">  
+                            <h3>Reviews</h3>
+                            <hr>
+
+                            <ul>
+                            <li><p><i class="fas fa-user"></i><i>La Pino's is one of the best Restaurants in town.</i></p><li></li>
+                            <br>
+                            <li><p><i class="fas fa-user"></i><i>One of the best pizza.</i></p></li>
+                            <br>
+                            <li><p><i class="fas fa-user"></i><i>Everyone must try their Chicken Biryani.</i></p></li>
+                            <br>
+                            <li><p><i class="fas fa-user"></i><i>The place is very hygienic.</i></p></li>
+                            </ul>
+                            
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                
+
+            </div>
+        
+
+
+    <br>
+            <footer class="footer">
+                <div class="footer_copyright text-white fw-light">Ⓒ All rights reserved</div>
+            </footer>
+    </main>
+
+    <!-- Main -->
+
+    <!-- <footer class="footer">
+        <div class="footer_copyright">Ⓒ All rights reserved</div>
+    </footer> -->
+
+    <script src="javascript/barchart.js">
+    </script>
+    <script src="javascript/linechart.js">
+    </script>
+    <script src="javascript/piechart.js"></script>
+    <script src="javascript/doughnut.js"></script>
+    <script src="javascript/area.js"></script>
+    <script src="javascript/doughnutCardChart1.js"></script>
+    <script src="javascript/doughnutCardChart2.js"></script>\
+    <script src="javascript/doughnutCardChart3.js"></script>
+    <script src="javascript/doughnutCardchart4.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+            crossorigin="anonymous"></script>
+
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.2/js/jquery.dataTables.min.js"></script>
+    <script src="javascript/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="/bower_components/owl.carousel/dist/owl.carousel.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</html>
